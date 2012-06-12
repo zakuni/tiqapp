@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB83249715875DC1002D7D71 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB83249615875DC1002D7D71 /* Cocoa.framework */; };
+		FB83249915875DC1002D7D71 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB83249815875DC1002D7D71 /* MacRuby.framework */; };
+		FB8324A215875DC1002D7D71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB8324A015875DC1002D7D71 /* InfoPlist.strings */; };
+		FB8324A415875DC1002D7D71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8324A315875DC1002D7D71 /* main.m */; };
+		FB8324A915875DC3002D7D71 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8324A715875DC3002D7D71 /* MainMenu.xib */; };
+		FB8324AC15875DC3002D7D71 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB8324AB15875DC3002D7D71 /* rb_main.rb */; };
+		FB8324AE15875DC3002D7D71 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB8324AD15875DC3002D7D71 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB83249B15875DC1002D7D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB83248915875DC1002D7D71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB83249115875DC1002D7D71;
+			remoteInfo = tiqapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB83249215875DC1002D7D71 /* tiqapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiqapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB83249615875DC1002D7D71 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FB83249815875DC1002D7D71 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		FB83249F15875DC1002D7D71 /* tiqapp-Info.plist */ = {isa = PBXFileReference; path = "tiqapp-Info.plist"; sourceTree = "<group>"; };
+		FB8324A115875DC1002D7D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB8324A315875DC1002D7D71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB8324A515875DC1002D7D71 /* tiqapp-Prefix.pch */ = {isa = PBXFileReference; path = "tiqapp-Prefix.pch"; sourceTree = "<group>"; };
+		FB8324A815875DC3002D7D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FB8324AB15875DC3002D7D71 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		FB8324AD15875DC3002D7D71 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB83248F15875DC1002D7D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB83249715875DC1002D7D71 /* Cocoa.framework in Frameworks */,
+				FB83249915875DC1002D7D71 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB83248715875DC1002D7D71 = {
+			isa = PBXGroup;
+			children = (
+				FB83249D15875DC1002D7D71 /* tiqapp */,
+				FB83249515875DC1002D7D71 /* Frameworks */,
+				FB83249315875DC1002D7D71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB83249315875DC1002D7D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB83249215875DC1002D7D71 /* tiqapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB83249515875DC1002D7D71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB83249615875DC1002D7D71 /* Cocoa.framework */,
+				FB83249815875DC1002D7D71 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB83249D15875DC1002D7D71 /* tiqapp */ = {
+			isa = PBXGroup;
+			children = (
+				FB8324AD15875DC3002D7D71 /* AppDelegate.rb */,
+				FB8324A615875DC3002D7D71 /* Resources */,
+				FB8324AA15875DC3002D7D71 /* Other Sources */,
+				FB83249E15875DC1002D7D71 /* Supporting Files */,
+			);
+			path = tiqapp;
+			sourceTree = "<group>";
+		};
+		FB83249E15875DC1002D7D71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB83249F15875DC1002D7D71 /* tiqapp-Info.plist */,
+				FB8324A015875DC1002D7D71 /* InfoPlist.strings */,
+				FB8324A315875DC1002D7D71 /* main.m */,
+				FB8324A515875DC1002D7D71 /* tiqapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB8324A615875DC3002D7D71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB8324A715875DC3002D7D71 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FB8324AA15875DC3002D7D71 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FB8324AB15875DC3002D7D71 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		FB83249A15875DC1002D7D71 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = FB8324B415875DC3002D7D71 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				FB83249C15875DC1002D7D71 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		FB83249115875DC1002D7D71 /* tiqapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8324B115875DC3002D7D71 /* Build configuration list for PBXNativeTarget "tiqapp" */;
+			buildPhases = (
+				FB83248E15875DC1002D7D71 /* Sources */,
+				FB83248F15875DC1002D7D71 /* Frameworks */,
+				FB83249015875DC1002D7D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tiqapp;
+			productName = tiqapp;
+			productReference = FB83249215875DC1002D7D71 /* tiqapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB83248915875DC1002D7D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FB83248C15875DC1002D7D71 /* Build configuration list for PBXProject "tiqapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB83248715875DC1002D7D71;
+			productRefGroup = FB83249315875DC1002D7D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB83249115875DC1002D7D71 /* tiqapp */,
+				FB83249A15875DC1002D7D71 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB83249015875DC1002D7D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8324A215875DC1002D7D71 /* InfoPlist.strings in Resources */,
+				FB8324A915875DC3002D7D71 /* MainMenu.xib in Resources */,
+				FB8324AC15875DC3002D7D71 /* rb_main.rb in Resources */,
+				FB8324AE15875DC3002D7D71 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB83248E15875DC1002D7D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8324A415875DC1002D7D71 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB83249C15875DC1002D7D71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB83249115875DC1002D7D71 /* tiqapp */;
+			targetProxy = FB83249B15875DC1002D7D71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB8324A015875DC1002D7D71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8324A115875DC1002D7D71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB8324A715875DC3002D7D71 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8324A815875DC3002D7D71 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB8324AF15875DC3002D7D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FB8324B015875DC3002D7D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB8324B215875DC3002D7D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tiqapp/tiqapp-Prefix.pch";
+				INFOPLIST_FILE = "tiqapp/tiqapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB8324B315875DC3002D7D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tiqapp/tiqapp-Prefix.pch";
+				INFOPLIST_FILE = "tiqapp/tiqapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FB8324B515875DC3002D7D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		FB8324B615875DC3002D7D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB83248C15875DC1002D7D71 /* Build configuration list for PBXProject "tiqapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8324AF15875DC3002D7D71 /* Debug */,
+				FB8324B015875DC3002D7D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8324B115875DC3002D7D71 /* Build configuration list for PBXNativeTarget "tiqapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8324B215875DC3002D7D71 /* Debug */,
+				FB8324B315875DC3002D7D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB8324B415875DC3002D7D71 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8324B515875DC3002D7D71 /* Debug */,
+				FB8324B615875DC3002D7D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB83248915875DC1002D7D71 /* Project object */;
+}
