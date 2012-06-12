@@ -2,13 +2,14 @@
 #  rb_main.rb
 #  tiqapp
 #
-#  Created by 邦雄 小沢 on 12/06/12.
+#  Created by zakuni on 12/06/12.
 #  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 #
 
 # Loading the Cocoa framework. If you need to load more frameworks, you can
 # do that here too.
 framework 'Cocoa'
+require 'net/http'
 
 # Loading all the Ruby project files.
 main = File.basename(__FILE__, File.extname(__FILE__))

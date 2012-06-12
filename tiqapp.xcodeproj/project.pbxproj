@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FB83249715875DC1002D7D71 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB83249615875DC1002D7D71 /* Cocoa.framework */; };
-		FB83249915875DC1002D7D71 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB83249815875DC1002D7D71 /* MacRuby.framework */; };
 		FB8324A215875DC1002D7D71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB8324A015875DC1002D7D71 /* InfoPlist.strings */; };
 		FB8324A415875DC1002D7D71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8324A315875DC1002D7D71 /* main.m */; };
 		FB8324A915875DC3002D7D71 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8324A715875DC3002D7D71 /* MainMenu.xib */; };
 		FB8324AC15875DC3002D7D71 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB8324AB15875DC3002D7D71 /* rb_main.rb */; };
 		FB8324AE15875DC3002D7D71 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = FB8324AD15875DC3002D7D71 /* AppDelegate.rb */; };
+		FB8324B815875DEC002D7D71 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8324B715875DEC002D7D71 /* MacRuby.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,14 +29,14 @@
 /* Begin PBXFileReference section */
 		FB83249215875DC1002D7D71 /* tiqapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiqapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB83249615875DC1002D7D71 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		FB83249815875DC1002D7D71 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		FB83249F15875DC1002D7D71 /* tiqapp-Info.plist */ = {isa = PBXFileReference; path = "tiqapp-Info.plist"; sourceTree = "<group>"; };
+		FB83249F15875DC1002D7D71 /* tiqapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tiqapp-Info.plist"; sourceTree = "<group>"; };
 		FB8324A115875DC1002D7D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FB8324A315875DC1002D7D71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FB8324A515875DC1002D7D71 /* tiqapp-Prefix.pch */ = {isa = PBXFileReference; path = "tiqapp-Prefix.pch"; sourceTree = "<group>"; };
+		FB8324A515875DC1002D7D71 /* tiqapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tiqapp-Prefix.pch"; sourceTree = "<group>"; };
 		FB8324A815875DC3002D7D71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		FB8324AB15875DC3002D7D71 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		FB8324AD15875DC3002D7D71 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		FB8324B715875DEC002D7D71 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB83249715875DC1002D7D71 /* Cocoa.framework in Frameworks */,
-				FB83249915875DC1002D7D71 /* MacRuby.framework in Frameworks */,
+				FB8324B815875DEC002D7D71 /* MacRuby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,8 @@
 		FB83249515875DC1002D7D71 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FB8324B715875DEC002D7D71 /* MacRuby.framework */,
 				FB83249615875DC1002D7D71 /* Cocoa.framework */,
-				FB83249815875DC1002D7D71 /* MacRuby.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

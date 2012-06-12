@@ -1,2 +1,3 @@
 build*
-tiqapp.xcodeproj*
+tiqapp.xcodeproj/project.xcworkspace*
+tiqapp.xcodeproj/xcuserdata*

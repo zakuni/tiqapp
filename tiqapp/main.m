@@ -2,7 +2,7 @@
 //  main.m
 //  tiqapp
 //
-//  Created by 邦雄 小沢 on 12/06/12.
+//  Created by zakuni on 12/06/12.
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
